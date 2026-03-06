@@ -102,3 +102,25 @@ span {
 .paragrafo-section-2 p {
     font-size: 25px;
 }
+
+.section3 {
+    background-image: url(imagens/architecture-3128917_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section3 button {
+    padding: 7px;
+    width: 150px;
+    background-color: #ffffff; /*Cor do fundo*/
+    color: black; /* cor da letra*/
+    font-weight: 800; /* espessura da letra*/
+    border: none; /* removendo as bordas do button */ 
+}

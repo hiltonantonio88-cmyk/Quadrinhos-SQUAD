@@ -111,8 +111,8 @@ span {
     background-attachment: fixed;
     padding: 200px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*alinhamento horizontal*/
     
 }
 
@@ -123,4 +123,90 @@ span {
     color: black; /* cor da letra*/
     font-weight: 800; /* espessura da letra*/
     border: none; /* removendo as bordas do button */ 
+}
+
+.section04 div {
+    width: 300px; /*largura da caixa*/
+    height: 300px; /*altura da caixa*/
+    background-color: gray; /*cor do fundo*/
+    padding: 15px; /*preenchimento interno*/
+    text-align: center; /*alinhamento dos text*/
+}
+
+.section04 {
+    display: flex; /*deixando as div lado a lado*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: space-evenly; /*alinhamento horizontal*/
+    gap: 30px; /*espaço entre as caixa */
+    padding: 60px; /*preenchimento interno das div*/
+}
+
+/*estilização | caixa02*/
+.caixa02 {
+    background-image: url(imagens/halloween-959047_1280.jpg);
+    /*inserindo img de fundo*/
+    background-position: inherit; /*posicionamento img*/
+    background-repeat: no-repeat; /*desativando a repetição*/
+    background-size:cover; /*preenchimento completo img*/
+    background-attachment: fixed; 
+    
+}
+/*estilização caixa 01*/
+.caixa01 h2 {
+    font-size: 25px; /*tamanho da letra*/
+    text-transform: uppercase; /*letra em alta*/
+    margin-top: 30px; /*espaçamento superior*/
+}
+
+/*estilização do paragrafo caixa01*/
+.caixa01 p {
+    font-size: 20px; /*tamanho da letra*/
+    font-weight: 700; /*peso da font*/
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.fa-star, .fa-star-half {
+    font-size: 25px;/*tamanho dos icon*/
+    color: gold; /*cores dos icon*/
+}
+
+.fa-github {
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.caixa03 p {
+    font-size: 20px; /*tamanho da letra*/
+    font-weight: 700; /*peso da font*/
+}
+
+.caixa03 button {
+    padding: 7px; /*preenchimento interno*/
+    background-color: black;/*cor de fundo */
+    color: white; /* cor da letra */
+    width: 130px; /*largura do button */
+    border: none; /*removendo a borda*/
+}
+
+footer{
+    background-color: black;
+    padding: 80px;
+    color: yellow;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .fa-github, .fa-square-twitter, .fa-square-instagram {
+    color: yellow;
+    font-size: 40px;
+    
+}
+
+.caixa-footer {
+    text-align: center;
 }
